@@ -8,10 +8,22 @@
     <link rel="stylesheet" href="../output/tailwind.css" />
   </head>
   <body>
-    <div
-      class="m-20 h-32 w-32 rounded border-2 border-black bg-lime-500 text-white"
-    >
-      Hello
-    </div>
+    <main class="flex h-screen items-center justify-center">
+      <div class="flex flex-col items-center">
+        <h1>Change The Background Color by clicking the following Button!</h1>
+        <input
+          class="my-4 h-10 w-auto border-2 border-slate-800 "
+          type="text"
+          name=""
+          disabled
+          id="color-copy"
+        />
+        <button class="block h-12 w-52 rounded-full bg-blue-400">
+          CHANGE COLOR
+        </button>
+      </div>
+    </main>
+    <!-- custom script -->
+    <script src="./script.js"></script>
   </body>
 </html>
